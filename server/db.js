@@ -1,16 +1,15 @@
-const mongoose = require('mongoose');
+// const mongoose = require('mongoose');
 
-
-module.exports = () => {
-    const connectionParams = {
-        useNewUrlParser: true,
-        useUnifiedTopology: true
-    };
-    try {
-        mongoose.connect(process.env.DB, connectionParams);
-        console.log('Connected to our Dtabase Successfully');
-    } catch (error) {
-        console.log('error');
-        console.log('Database Connection Failed');
-    }
-    }
+// module.exports = () => {
+//     const connectionParams = {
+//         useNewUrlParser: true,
+//         useUnifiedTopology: true,
+//     };
+//     try {
+//         mongoose.connect(process.env.DB, connectionParams);
+//         console.log("Connected to database successfully");
+//     } catch (error) {
+//         coonsole.log(error);
+//         console.log("Could not connect to database!");
+//     }
+// };
