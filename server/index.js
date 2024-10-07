@@ -84,7 +84,7 @@ app.use(express.json());
 app.use(cors());
 
 // Define the port
-const port = process.env.PORT || 8080;
+const port = process.env.PORT || 3000;
 
 // Start the server
 app.listen(port, () => console.log(`Listening on port ${port}...`));
