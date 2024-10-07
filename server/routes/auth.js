@@ -34,4 +34,4 @@ const validate = (data) => {
     return schema.validate(data);
 }
 
-modules.exports = router;
+module.exports = router;
